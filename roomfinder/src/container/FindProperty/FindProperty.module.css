@@ -1,0 +1,112 @@
+.FindProperty {
+    background-image: url("../../assets/BackgroudImage/residence.jpg");
+    background-size: cover;
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    /* filter: grayscale(80%); */
+}
+
+.FindPropertyBackgroundContent {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.FindPropertyHeader{
+    color: white;
+    font-size: 0.7rem;    
+}
+.FindPropertyUnderline{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.FindPropertyFormCotainer {
+    width: 100%;
+}
+
+.FindPropertyForm {
+    display: flex;
+    flex-direction: column;
+}
+.FindPropertyForm label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+.FindPropertyForm input,
+.FindPropertyForm select{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.FindPropertyForm select{
+    height: 36px;
+}
+
+.FindPropertyForm button {
+    margin-top: 5px;
+    color: black;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.FindPropertyForm button:active,
+.FindPropertyForm button:hover {
+    color: white;
+    background-color: #b0b5bb;
+}
+
+@media(min-width: 500px){
+    .FindPropertyUnderline{
+        width: 60%;
+        height: 1px;
+        background-color: black;
+    }
+    
+    .FindPropertyFormCotainer {
+        margin-top: 10px;
+        width: 60%;
+    }
+}
+
+@media(min-width: 750px){
+    .FindPropertyHeader{
+        font-size: 0.8rem;
+    }
+    .FindPropertyUnderline{
+        width: 50%;
+    }
+    
+    .FindPropertyFormCotainer {
+        width: 50%;
+    }
+    
+    .FindPropertyForm label{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: white;
+    }
+    .FindPropertyForm input,
+    .FindPropertyForm select{
+        height: 30px;
+        border-radius: 5px;
+    }
+    .FindPropertyForm select{
+        height: 36px;
+    }
+    
+}

@@ -1,0 +1,63 @@
+.MainHeader {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 100%;
+}
+.DesktopOnly {
+    display: none;
+}
+.MobileOnly {
+    display: inline-block;
+}
+
+@media(min-width: 750px){
+
+    .Toolbar {
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 100px;
+    }
+    .MobileOnly {
+        display: none;
+    }
+    .DesktopOnly {
+        display: inline-block;
+    }
+
+
+}
+
+
+/* .Toolbar {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobileOnly {
+   display: block; 
+}
+
+.desktopOnly {
+    display: none; 
+}
+
+@media(min-width: 600px){
+    .mobileOnly {
+        display: none; 
+     }
+     
+     .desktopOnly {
+         display: block; 
+      }
+} */

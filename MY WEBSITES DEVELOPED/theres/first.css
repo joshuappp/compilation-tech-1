@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.room_provice_location h3{
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-top:-20px;
+  
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: .0rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+  color: #080cf1;
+}
+
+.nav .nav-link {
+  background-color: red;
+}
+
+.card {
+  position: relative;
+}
+.the_card {
+  padding-left: 450px;
+}
+.card-header {
+  font-size: 200%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15x #000;
+}
+.card-body h6{
+  font-size: 100%;
+  font-weight: 100%;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.card-body h3{
+  font-size: 100%;
+  font-weight: 100%;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.the_jumbotron {
+  height: -20%;
+  text-align: center;
+}
+
+
+.the_provices {
+  background-color: green;
+}

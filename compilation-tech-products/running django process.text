@@ -1,0 +1,9 @@
+1.     virtualenv mypython
+
+2.    source mypython/bin/activate
+
+
+
+Run Django project
+
+1. python manage.py runserver

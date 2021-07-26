@@ -1,0 +1,27 @@
+.DescriptionSection {
+    width: 100%;
+    background-color: #e9f1f7;
+    padding-bottom: 1rem;
+}
+.DescriptionSection__Header{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: #41464b;
+}
+.DescriptionSection__underline {
+    width: 100px;
+    height: 4px;
+    background-color: #41464b;
+    margin: 0 auto;
+}
+.DescriptionSection__message {
+    display: flex;
+    vertical-align: middle;
+}
+.DescriptionSection__message p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #64707b;
+}

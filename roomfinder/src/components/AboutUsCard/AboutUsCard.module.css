@@ -1,0 +1,40 @@
+.AboutUsCard {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.AboutUsCardHeader{
+    color: white;
+    font-size: 0.7rem;
+}
+.AboutUsCardHeader h1{
+    text-align: center;
+    background-color: rgb(139, 138, 138);
+    border-radius: 5px;
+}
+.AboutUsCardUnderline{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.AboutUsCardListWrapper ul {
+    list-style: none;
+    padding: 0;
+}
+@media(min-width: 700px){
+    .AboutUsCard {
+        width: 80%;
+    }
+}
+
+@media(min-width: 850px){
+    .AboutUsCard {
+        width: 75%;
+    }
+}
+@media(min-width: 1100px){
+    .AboutUsCard {
+        width: 60%;
+    }
+}

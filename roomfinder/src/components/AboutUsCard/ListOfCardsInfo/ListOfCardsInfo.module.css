@@ -1,0 +1,14 @@
+.ListOfCardsInfo{
+    font-weight: 500;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+.ListOfCardsInfo p{
+    text-align: center
+}
